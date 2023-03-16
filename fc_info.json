@@ -1,0 +1,17 @@
+{
+    "script_parameters": {
+        "batchsize": 32,
+        "epochs": 3,
+        "filename": "exp_fc",
+        "loss": "crossentropy",
+        "model": "exp_fc",
+        "optimiser": "adam",
+        "process": false,
+        "samplerate": 10,
+        "seed": 1,
+        "theta": 0.0003,
+        "weight_decay": 1e-06
+    },
+    "dataset_size": 60000,
+    "execution_time": 691.7826128005981
+}

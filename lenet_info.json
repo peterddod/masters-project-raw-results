@@ -1,0 +1,17 @@
+{
+    "script_parameters": {
+        "batchsize": 32,
+        "epochs": 5,
+        "filename": "exp_lenet",
+        "loss": "crossentropy",
+        "model": "exp_lenet",
+        "optimiser": "adam",
+        "process": false,
+        "samplerate": 10,
+        "seed": 1,
+        "theta": 0.0003,
+        "weight_decay": 1e-06
+    },
+    "dataset_size": 60000,
+    "execution_time": 1320.5438876152039
+}
