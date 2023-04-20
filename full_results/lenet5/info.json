@@ -1,0 +1,24 @@
+{
+    "script_parameters": {
+        "filename": "exp_lenet",
+        "seed": 1,
+        "samplerate": 10,
+        "dataset": "mnist",
+        "epochs": 5,
+        "batchsize": 32,
+        "model": "exp_lenet",
+        "optimiser": "adam",
+        "loss": "crossentropy",
+        "theta": 0.0003,
+        "weight_decay": 1e-06,
+        "device": "cpu"
+    },
+    "dataset_size": 60000,
+    "layer_indexes": [
+        0,
+        4704,
+        6304,
+        6424
+    ],
+    "execution_time": 783.0184850692749
+}

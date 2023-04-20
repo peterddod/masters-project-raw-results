@@ -1,0 +1,23 @@
+{
+    "script_parameters": {
+        "filename": "exp_fc",
+        "seed": 1,
+        "samplerate": 10,
+        "dataset": "mnist",
+        "epochs": 3,
+        "batchsize": 32,
+        "model": "exp_fc",
+        "optimiser": "adam",
+        "loss": "crossentropy",
+        "theta": 0.0003,
+        "weight_decay": 1e-06,
+        "device": "cpu"
+    },
+    "dataset_size": 60000,
+    "layer_indexes": [
+        0,
+        24,
+        48
+    ],
+    "execution_time": 282.8460988998413
+}
