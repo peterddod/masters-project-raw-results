@@ -1,0 +1,27 @@
+{
+    "script_parameters": {
+        "batchsize": 256,
+        "dataset": "cifar10",
+        "device": "cuda:1",
+        "epochs": 70,
+        "filename": "exp_resnet",
+        "loss": "crossentropy",
+        "model": "exp_resnet",
+        "optimiser": "adam",
+        "samplerate": 10,
+        "seed": 1,
+        "theta": 0.0001,
+        "weight_decay": 1e-05
+    },
+    "dataset_size": 50000,
+    "layer_indexes": [
+        0,
+        131072,
+        163840,
+        196608,
+        262144,
+        278528,
+        282624
+    ],
+    "execution_time": 6339.758183479309
+}
