@@ -1,0 +1,19 @@
+{
+    "script_parameters": {
+        "filename": "exp_lenet_5",
+        "seed": 1,
+        "samplerate": 10,
+        "epochs": 5,
+        "batchsize": 32,
+        "model": "exp_lenet",
+        "optimiser": "adam",
+        "loss": "crossentropy",
+        "theta": 0.0003,
+        "weight_decay": 1e-06,
+        "freezepoint": 5,
+        "device": "cpu",
+        "dataset": "mnist"
+    },
+    "dataset_size": 60000,
+    "execution_time": 841.1372730731964
+}
