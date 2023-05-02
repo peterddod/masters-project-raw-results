@@ -1,0 +1,27 @@
+{
+    "script_parameters": {
+        "batchsize": 256,
+        "dataset": "cifar10-big",
+        "device": "cuda",
+        "epochs": 50,
+        "filename": "exp_alexnet",
+        "loss": "crossentropy",
+        "model": "exp_alexnet",
+        "optimiser": "adam",
+        "samplerate": 10,
+        "seed": 1,
+        "theta": 0.0001,
+        "weight_decay": 1e-05
+    },
+    "dataset_size": 50000,
+    "layer_indexes": [
+        0,
+        92256,
+        149856,
+        168672,
+        187488,
+        200032,
+        201056
+    ],
+    "execution_time": 12041.034669876099
+}
